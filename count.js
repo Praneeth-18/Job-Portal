@@ -1,0 +1,1 @@
+const { PrismaClient } = require("@prisma/client"); const prisma = new PrismaClient(); async function count() { try { const count = await prisma.jobListing.count(); console.log("Total job listings:", count); } catch (e) { console.error(e); } finally { await prisma.$disconnect(); } } count();

@@ -1,0 +1,377 @@
+2025-03-08 00:06:50,690 - apscheduler.scheduler - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-03-08 00:06:50,690 - __main__ - INFO - Scheduler started. Press Ctrl+C to exit.
+2025-03-08 00:06:50,692 - apscheduler.scheduler - INFO - Added job "run_job" to job store "default"
+2025-03-08 00:06:50,692 - apscheduler.scheduler - INFO - Scheduler started
+2025-03-08 00:06:50,692 - apscheduler.executors.default - INFO - Running job "run_job (trigger: interval[1:00:00], next run at: 2025-03-08 00:06:50 PST)" (scheduled at 2025-03-08 00:06:50.690488-08:00)
+2025-03-08 00:06:50,692 - __main__ - INFO - Starting CSV download and processing job
+2025-03-08 00:06:51,100 - __main__ - ERROR - Job failed with error: Traceback (most recent call last):
+  File "/Users/saipraneethkonuri/Documents/295Btemp/job_listing_processor.py", line 8, in <module>
+    from csvdownload import download_csv
+  File "/Users/saipraneethkonuri/Documents/295Btemp/csvdownload.py", line 1, in <module>
+    from selenium import webdriver
+ModuleNotFoundError: No module named 'selenium'
+
+2025-03-08 00:06:51,101 - apscheduler.executors.default - INFO - Job "run_job (trigger: interval[1:00:00], next run at: 2025-03-08 01:06:50 PST)" executed successfully
+2025-03-08 00:07:07,179 - __main__ - INFO - Scheduler stopped.
+2025-03-08 00:07:25,025 - apscheduler.scheduler - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-03-08 00:07:25,025 - __main__ - INFO - Scheduler started. Press Ctrl+C to exit.
+2025-03-08 00:07:25,025 - apscheduler.scheduler - INFO - Added job "run_job" to job store "default"
+2025-03-08 00:07:25,025 - apscheduler.scheduler - INFO - Scheduler started
+2025-03-08 00:07:25,025 - apscheduler.executors.default - INFO - Running job "run_job (trigger: interval[1:00:00], next run at: 2025-03-08 00:07:25 PST)" (scheduled at 2025-03-08 00:07:25.025101-08:00)
+2025-03-08 00:07:25,025 - __main__ - INFO - Starting CSV download and processing job
+2025-03-08 00:08:04,018 - __main__ - INFO - Scheduler stopped.
+2025-03-08 00:08:04,116 - __main__ - ERROR - Job failed with error: Traceback (most recent call last):
+  File "/Users/saipraneethkonuri/Documents/295Btemp/job_listing_processor.py", line 356, in <module>
+    main()
+    ~~~~^^
+  File "/Users/saipraneethkonuri/Documents/295Btemp/job_listing_processor.py", line 353, in main
+    time.sleep(60)  # Wait for 60 seconds before checking schedule again
+    ~~~~~~~~~~^^^^
+KeyboardInterrupt
+
+2025-03-08 00:08:04,116 - apscheduler.executors.default - INFO - Job "run_job (trigger: interval[1:00:00], next run at: 2025-03-08 01:07:25 PST)" executed successfully
+2025-03-08 00:38:26,202 - apscheduler.scheduler - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-03-08 00:38:26,202 - __main__ - INFO - Scheduler started. Press Ctrl+C to exit.
+2025-03-08 00:38:26,203 - apscheduler.scheduler - INFO - Added job "run_job" to job store "default"
+2025-03-08 00:38:26,203 - apscheduler.scheduler - INFO - Scheduler started
+2025-03-08 00:38:26,203 - apscheduler.executors.default - INFO - Running job "run_job (trigger: interval[1:00:00], next run at: 2025-03-08 00:38:26 PST)" (scheduled at 2025-03-08 00:38:26.202460-08:00)
+2025-03-08 00:38:26,203 - __main__ - INFO - Starting CSV download and processing job
+2025-03-08 00:38:26,253 - __main__ - ERROR - Job failed with error: Traceback (most recent call last):
+  File "/Users/saipraneethkonuri/Documents/295Btemp/job_listing_processor.py", line 3, in <module>
+    import pandas as pd
+ModuleNotFoundError: No module named 'pandas'
+
+2025-03-08 00:38:26,253 - apscheduler.executors.default - INFO - Job "run_job (trigger: interval[1:00:00], next run at: 2025-03-08 01:38:26 PST)" executed successfully
+2025-03-08 00:39:01,852 - apscheduler.scheduler - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-03-08 00:39:01,852 - __main__ - INFO - Scheduler started. Press Ctrl+C to exit.
+2025-03-08 00:39:01,853 - apscheduler.scheduler - INFO - Added job "run_job" to job store "default"
+2025-03-08 00:39:01,853 - apscheduler.scheduler - INFO - Scheduler started
+2025-03-08 00:39:01,853 - apscheduler.executors.default - INFO - Running job "run_job (trigger: interval[1:00:00], next run at: 2025-03-08 00:39:01 PST)" (scheduled at 2025-03-08 00:39:01.852456-08:00)
+2025-03-08 00:39:01,853 - __main__ - INFO - Starting CSV download and processing job
+2025-03-08 00:47:17,243 - __main__ - INFO - Scheduler stopped.
+2025-03-08 00:47:17,329 - __main__ - ERROR - Job failed with error: Traceback (most recent call last):
+  File "/Users/saipraneethkonuri/Documents/295Btemp/job_listing_processor.py", line 356, in <module>
+    main()
+    ~~~~^^
+  File "/Users/saipraneethkonuri/Documents/295Btemp/job_listing_processor.py", line 353, in main
+    time.sleep(60)  # Wait for 60 seconds before checking schedule again
+    ~~~~~~~~~~^^^^
+KeyboardInterrupt
+
+2025-03-08 00:47:17,329 - apscheduler.executors.default - INFO - Job "run_job (trigger: interval[1:00:00], next run at: 2025-03-08 01:39:01 PST)" executed successfully
+2025-03-08 00:50:20,802 - apscheduler.scheduler - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-03-08 00:50:20,803 - __main__ - INFO - Scheduler started. Press Ctrl+C to exit.
+2025-03-08 00:50:20,803 - apscheduler.scheduler - INFO - Added job "run_job" to job store "default"
+2025-03-08 00:50:20,803 - apscheduler.scheduler - INFO - Scheduler started
+2025-03-08 00:50:20,803 - apscheduler.executors.default - INFO - Running job "run_job (trigger: interval[1:00:00], next run at: 2025-03-08 00:50:20 PST)" (scheduled at 2025-03-08 00:50:20.802841-08:00)
+2025-03-08 00:50:20,803 - __main__ - INFO - Starting CSV download and processing job
+2025-03-08 00:56:54,722 - __main__ - INFO - Scheduler stopped.
+2025-03-08 00:56:54,782 - __main__ - ERROR - Job failed with error: Traceback (most recent call last):
+  File "/Users/saipraneethkonuri/Documents/295Btemp/job-portal/scripts/job_listing_processor.py", line 372, in <module>
+    main()
+    ~~~~^^
+  File "/Users/saipraneethkonuri/Documents/295Btemp/job-portal/scripts/job_listing_processor.py", line 369, in main
+    time.sleep(60)  # Wait for 60 seconds before checking schedule again
+    ~~~~~~~~~~^^^^
+KeyboardInterrupt
+
+2025-03-08 00:56:54,782 - apscheduler.executors.default - INFO - Job "run_job (trigger: interval[1:00:00], next run at: 2025-03-08 01:50:20 PST)" executed successfully
+2025-03-08 00:57:14,648 - apscheduler.scheduler - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-03-08 00:57:14,648 - __main__ - INFO - Scheduler started. Press Ctrl+C to exit.
+2025-03-08 00:57:14,649 - apscheduler.scheduler - INFO - Added job "run_job" to job store "default"
+2025-03-08 00:57:14,649 - apscheduler.scheduler - INFO - Scheduler started
+2025-03-08 00:57:14,649 - apscheduler.executors.default - INFO - Running job "run_job (trigger: interval[1:00:00], next run at: 2025-03-08 00:57:14 PST)" (scheduled at 2025-03-08 00:57:14.648544-08:00)
+2025-03-08 00:57:14,649 - __main__ - INFO - Starting CSV download and processing job
+2025-03-08 10:37:09,824 - apscheduler.scheduler - WARNING - Execution of job "run_job (trigger: interval[1:00:00], next run at: 2025-03-08 01:57:14 PST)" skipped: maximum number of running instances reached (1)
+2025-03-08 15:23:20,206 - apscheduler.scheduler - WARNING - Execution of job "run_job (trigger: interval[1:00:00], next run at: 2025-03-08 10:57:14 PST)" skipped: maximum number of running instances reached (1)
+2025-03-08 20:52:57,232 - apscheduler.scheduler - WARNING - Execution of job "run_job (trigger: interval[1:00:00], next run at: 2025-03-08 15:57:14 PST)" skipped: maximum number of running instances reached (1)
+2025-03-08 20:55:21,676 - __main__ - INFO - Scheduler stopped.
+2025-03-08 20:55:21,821 - __main__ - ERROR - Job failed with error: Traceback (most recent call last):
+  File "/Users/saipraneethkonuri/Documents/295Btemp/job-portal/scripts/job_listing_processor.py", line 372, in <module>
+    main()
+    ~~~~^^
+  File "/Users/saipraneethkonuri/Documents/295Btemp/job-portal/scripts/job_listing_processor.py", line 369, in main
+    time.sleep(60)  # Wait for 60 seconds before checking schedule again
+    ~~~~~~~~~~^^^^
+KeyboardInterrupt
+
+2025-03-08 20:55:21,821 - apscheduler.executors.default - INFO - Job "run_job (trigger: interval[1:00:00], next run at: 2025-03-08 20:57:14 PST)" executed successfully
+2025-03-09 00:21:20,993 - apscheduler.scheduler - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-03-09 00:21:20,993 - __main__ - INFO - Scheduler started. Press Ctrl+C to exit.
+2025-03-09 00:21:20,993 - apscheduler.scheduler - INFO - Added job "run_job" to job store "default"
+2025-03-09 00:21:20,993 - apscheduler.scheduler - INFO - Scheduler started
+2025-03-09 00:21:20,994 - apscheduler.executors.default - INFO - Running job "run_job (trigger: interval[1:00:00], next run at: 2025-03-09 00:21:20 PST)" (scheduled at 2025-03-09 00:21:20.993007-08:00)
+2025-03-09 00:21:20,994 - __main__ - INFO - Starting CSV download and processing job
+2025-03-09 00:33:19,058 - apscheduler.scheduler - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-03-09 00:33:19,059 - __main__ - INFO - Scheduler started. Press Ctrl+C to exit.
+2025-03-09 00:33:19,059 - apscheduler.scheduler - INFO - Added job "run_job" to job store "default"
+2025-03-09 00:33:19,059 - apscheduler.scheduler - INFO - Scheduler started
+2025-03-09 00:33:19,059 - apscheduler.executors.default - INFO - Running job "run_job (trigger: interval[1:00:00], next run at: 2025-03-09 00:33:19 PST)" (scheduled at 2025-03-09 00:33:19.058241-08:00)
+2025-03-09 00:33:19,059 - __main__ - INFO - Starting CSV download and processing job
+2025-03-09 00:43:28,363 - apscheduler.scheduler - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-03-09 00:43:28,363 - __main__ - INFO - Scheduler started. Press Ctrl+C to exit.
+2025-03-09 00:43:28,364 - apscheduler.scheduler - INFO - Added job "run_job" to job store "default"
+2025-03-09 00:43:28,364 - apscheduler.scheduler - INFO - Scheduler started
+2025-03-09 00:43:28,364 - apscheduler.executors.default - INFO - Running job "run_job (trigger: interval[1:00:00], next run at: 2025-03-09 00:43:28 PST)" (scheduled at 2025-03-09 00:43:28.363599-08:00)
+2025-03-09 00:43:28,364 - __main__ - INFO - Starting CSV download and processing job
+2025-03-09 00:43:28,387 - __main__ - ERROR - Job failed with error: Traceback (most recent call last):
+  File "/Users/saipraneethkonuri/Documents/295Btemp/job-portal/scripts/job_listing_processor.py", line 3, in <module>
+    import pandas as pd
+ModuleNotFoundError: No module named 'pandas'
+
+2025-03-09 00:43:28,387 - apscheduler.executors.default - INFO - Job "run_job (trigger: interval[1:00:00], next run at: 2025-03-09 01:43:28 PST)" executed successfully
+2025-03-09 00:43:43,569 - __main__ - INFO - Scheduler stopped.
+2025-03-09 00:43:58,596 - apscheduler.scheduler - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-03-09 00:43:58,596 - __main__ - INFO - Scheduler started. Press Ctrl+C to exit.
+2025-03-09 00:43:58,596 - apscheduler.scheduler - INFO - Added job "run_job" to job store "default"
+2025-03-09 00:43:58,596 - apscheduler.scheduler - INFO - Scheduler started
+2025-03-09 00:43:58,596 - apscheduler.executors.default - INFO - Running job "run_job (trigger: interval[1:00:00], next run at: 2025-03-09 00:43:58 PST)" (scheduled at 2025-03-09 00:43:58.595986-08:00)
+2025-03-09 00:43:58,596 - __main__ - INFO - Starting CSV download and processing job
+2025-03-09 00:44:05,194 - __main__ - ERROR - Job failed with error: Traceback (most recent call last):
+  File "/Users/saipraneethkonuri/Documents/295Btemp/job-portal/scripts/job_listing_processor.py", line 4, in <module>
+    import psycopg2
+ModuleNotFoundError: No module named 'psycopg2'
+
+2025-03-09 00:44:05,194 - apscheduler.executors.default - INFO - Job "run_job (trigger: interval[1:00:00], next run at: 2025-03-09 01:43:58 PST)" executed successfully
+2025-03-09 00:44:10,880 - __main__ - INFO - Scheduler stopped.
+2025-03-09 00:44:17,516 - apscheduler.scheduler - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-03-09 00:44:17,516 - __main__ - INFO - Scheduler started. Press Ctrl+C to exit.
+2025-03-09 00:44:17,516 - apscheduler.scheduler - INFO - Added job "run_job" to job store "default"
+2025-03-09 00:44:17,516 - apscheduler.scheduler - INFO - Scheduler started
+2025-03-09 00:44:17,516 - apscheduler.executors.default - INFO - Running job "run_job (trigger: interval[1:00:00], next run at: 2025-03-09 00:44:17 PST)" (scheduled at 2025-03-09 00:44:17.516182-08:00)
+2025-03-09 00:44:17,517 - __main__ - INFO - Starting CSV download and processing job
+2025-03-09 00:44:19,053 - __main__ - ERROR - Job failed with error: Traceback (most recent call last):
+  File "/Users/saipraneethkonuri/Documents/295Btemp/job-portal/scripts/job_listing_processor.py", line 7, in <module>
+    import schedule
+ModuleNotFoundError: No module named 'schedule'
+
+2025-03-09 00:44:19,053 - apscheduler.executors.default - INFO - Job "run_job (trigger: interval[1:00:00], next run at: 2025-03-09 01:44:17 PST)" executed successfully
+2025-03-09 00:44:21,589 - __main__ - INFO - Scheduler stopped.
+2025-03-09 00:44:32,581 - apscheduler.scheduler - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-03-09 00:44:32,581 - __main__ - INFO - Scheduler started. Press Ctrl+C to exit.
+2025-03-09 00:44:32,581 - apscheduler.scheduler - INFO - Added job "run_job" to job store "default"
+2025-03-09 00:44:32,581 - apscheduler.scheduler - INFO - Scheduler started
+2025-03-09 00:44:32,581 - apscheduler.executors.default - INFO - Running job "run_job (trigger: interval[1:00:00], next run at: 2025-03-09 00:44:32 PST)" (scheduled at 2025-03-09 00:44:32.581298-08:00)
+2025-03-09 00:44:32,582 - __main__ - INFO - Starting CSV download and processing job
+2025-03-09 00:44:32,883 - __main__ - ERROR - Job failed with error: Traceback (most recent call last):
+  File "/Users/saipraneethkonuri/Documents/295Btemp/job-portal/scripts/job_listing_processor.py", line 8, in <module>
+    from csvdownload import download_csv
+  File "/Users/saipraneethkonuri/Documents/295Btemp/job-portal/scripts/csvdownload.py", line 1, in <module>
+    from selenium import webdriver
+ModuleNotFoundError: No module named 'selenium'
+
+2025-03-09 00:44:32,883 - apscheduler.executors.default - INFO - Job "run_job (trigger: interval[1:00:00], next run at: 2025-03-09 01:44:32 PST)" executed successfully
+2025-03-09 00:44:34,522 - __main__ - INFO - Scheduler stopped.
+2025-03-09 00:44:47,364 - apscheduler.scheduler - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-03-09 00:44:47,365 - __main__ - INFO - Scheduler started. Press Ctrl+C to exit.
+2025-03-09 00:44:47,365 - apscheduler.scheduler - INFO - Added job "run_job" to job store "default"
+2025-03-09 00:44:47,365 - apscheduler.scheduler - INFO - Scheduler started
+2025-03-09 00:44:47,365 - apscheduler.executors.default - INFO - Running job "run_job (trigger: interval[1:00:00], next run at: 2025-03-09 00:44:47 PST)" (scheduled at 2025-03-09 00:44:47.364732-08:00)
+2025-03-09 00:44:47,365 - __main__ - INFO - Starting CSV download and processing job
+2025-03-09 00:44:47,704 - __main__ - ERROR - Job failed with error: Traceback (most recent call last):
+  File "/Users/saipraneethkonuri/Documents/295Btemp/job-portal/scripts/job_listing_processor.py", line 10, in <module>
+    from sqlalchemy import create_engine
+ModuleNotFoundError: No module named 'sqlalchemy'
+
+2025-03-09 00:44:47,704 - apscheduler.executors.default - INFO - Job "run_job (trigger: interval[1:00:00], next run at: 2025-03-09 01:44:47 PST)" executed successfully
+2025-03-09 00:44:49,930 - __main__ - INFO - Scheduler stopped.
+2025-03-09 00:45:01,970 - apscheduler.scheduler - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-03-09 00:45:01,970 - __main__ - INFO - Scheduler started. Press Ctrl+C to exit.
+2025-03-09 00:45:01,970 - apscheduler.scheduler - INFO - Added job "run_job" to job store "default"
+2025-03-09 00:45:01,970 - apscheduler.scheduler - INFO - Scheduler started
+2025-03-09 00:45:01,970 - apscheduler.executors.default - INFO - Running job "run_job (trigger: interval[1:00:00], next run at: 2025-03-09 00:45:01 PST)" (scheduled at 2025-03-09 00:45:01.970163-08:00)
+2025-03-09 00:45:01,970 - __main__ - INFO - Starting CSV download and processing job
+2025-03-09 01:17:46,298 - __main__ - INFO - Scheduler stopped.
+2025-03-09 01:17:46,451 - __main__ - ERROR - Job failed with error: Traceback (most recent call last):
+  File "/Users/saipraneethkonuri/Documents/295Btemp/job-portal/scripts/job_listing_processor.py", line 370, in <module>
+  File "/Users/saipraneethkonuri/Documents/295Btemp/job-portal/scripts/job_listing_processor.py", line 367, in main
+    while True:
+        ^^^^^^^
+KeyboardInterrupt
+
+2025-03-09 01:17:46,452 - apscheduler.executors.default - INFO - Job "run_job (trigger: interval[1:00:00], next run at: 2025-03-09 01:33:19 PST)" executed successfully
+2025-03-09 01:17:48,569 - apscheduler.scheduler - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-03-09 01:17:48,570 - __main__ - INFO - Scheduler started. Press Ctrl+C to exit.
+2025-03-09 01:17:48,570 - apscheduler.scheduler - INFO - Added job "run_job" to job store "default"
+2025-03-09 01:17:48,571 - apscheduler.scheduler - INFO - Scheduler started
+2025-03-09 01:17:48,571 - apscheduler.executors.default - INFO - Running job "run_job (trigger: interval[1:00:00], next run at: 2025-03-09 01:17:48 PST)" (scheduled at 2025-03-09 01:17:48.569321-08:00)
+2025-03-09 01:17:48,571 - __main__ - INFO - Starting CSV download and processing job
+2025-03-09 10:13:17,242 - apscheduler.scheduler - WARNING - Execution of job "run_job (trigger: interval[1:00:00], next run at: 2025-03-09 03:17:48 PDT)" skipped: maximum number of running instances reached (1)
+2025-03-09 10:18:09,563 - apscheduler.scheduler - WARNING - Execution of job "run_job (trigger: interval[1:00:00], next run at: 2025-03-09 10:17:48 PDT)" skipped: maximum number of running instances reached (1)
+2025-03-09 11:43:22,728 - apscheduler.scheduler - WARNING - Execution of job "run_job (trigger: interval[1:00:00], next run at: 2025-03-09 11:17:48 PDT)" skipped: maximum number of running instances reached (1)
+2025-03-09 11:44:22,081 - __main__ - INFO - Scheduler stopped.
+2025-03-09 11:44:22,227 - __main__ - ERROR - Job failed with error: Traceback (most recent call last):
+  File "/Users/saipraneethkonuri/Documents/295Btemp/job-portal/scripts/job_listing_processor.py", line 372, in <module>
+  File "/Users/saipraneethkonuri/Documents/295Btemp/job-portal/scripts/job_listing_processor.py", line 369, in main
+KeyboardInterrupt
+
+2025-03-09 11:44:22,228 - apscheduler.executors.default - INFO - Job "run_job (trigger: interval[1:00:00], next run at: 2025-03-09 12:17:48 PDT)" executed successfully
+2025-03-11 17:35:29,984 - apscheduler.scheduler - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-03-11 17:35:29,984 - __main__ - INFO - Scheduler started. Press Ctrl+C to exit.
+2025-03-11 17:35:29,985 - apscheduler.scheduler - INFO - Added job "run_job" to job store "default"
+2025-03-11 17:35:29,985 - apscheduler.scheduler - INFO - Scheduler started
+2025-03-11 17:35:29,985 - apscheduler.executors.default - INFO - Running job "run_job (trigger: interval[1:00:00], next run at: 2025-03-11 17:35:29 PDT)" (scheduled at 2025-03-11 17:35:29.984476-07:00)
+2025-03-11 17:35:29,985 - __main__ - INFO - Starting CSV download and processing job
+2025-03-11 17:35:29,986 - __main__ - INFO - Started job_listing_processor.py with PID 52869
+2025-03-11 17:35:29,986 - apscheduler.executors.default - INFO - Job "run_job (trigger: interval[1:00:00], next run at: 2025-03-11 18:35:29 PDT)" executed successfully
+2025-03-11 17:52:37,914 - apscheduler.scheduler - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-03-11 17:52:37,914 - __main__ - INFO - Scheduler started. Press Ctrl+C to exit.
+2025-03-11 17:52:37,915 - apscheduler.scheduler - INFO - Added job "run_job" to job store "default"
+2025-03-11 17:52:37,915 - apscheduler.scheduler - INFO - Scheduler started
+2025-03-11 17:52:37,915 - apscheduler.executors.default - INFO - Running job "run_job (trigger: interval[1:00:00], next run at: 2025-03-11 17:52:37 PDT)" (scheduled at 2025-03-11 17:52:37.913977-07:00)
+2025-03-11 17:52:37,915 - __main__ - INFO - Starting CSV download and processing job
+2025-03-11 17:52:37,917 - __main__ - INFO - Started job_listing_processor.py with PID 53619
+2025-03-11 17:52:37,917 - apscheduler.executors.default - INFO - Job "run_job (trigger: interval[1:00:00], next run at: 2025-03-11 18:52:37 PDT)" executed successfully
+2025-03-11 18:09:45,839 - __main__ - INFO - Terminated process with PID 53619 during shutdown
+2025-03-11 18:09:45,841 - __main__ - INFO - Scheduler stopped.
+2025-03-11 18:09:45,841 - __main__ - INFO - Terminated process with PID 53619 during shutdown
+2025-03-11 18:09:45,841 - __main__ - INFO - Scheduler stopped.
+2025-03-11 18:09:54,602 - __main__ - INFO - Terminated process with PID 52869 during shutdown
+2025-03-11 18:09:54,604 - __main__ - INFO - Scheduler stopped.
+2025-03-11 18:09:54,604 - __main__ - INFO - Terminated process with PID 52869 during shutdown
+2025-03-11 18:09:54,604 - __main__ - INFO - Scheduler stopped.
+2025-03-11 20:31:10,131 - apscheduler.scheduler - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-03-11 20:31:10,132 - __main__ - INFO - Scheduler started. Press Ctrl+C to exit.
+2025-03-11 20:31:10,132 - apscheduler.scheduler - INFO - Added job "run_job" to job store "default"
+2025-03-11 20:31:10,132 - apscheduler.scheduler - INFO - Scheduler started
+2025-03-11 20:31:10,133 - apscheduler.executors.default - INFO - Running job "run_job (trigger: interval[1:00:00], next run at: 2025-03-11 20:31:10 PDT)" (scheduled at 2025-03-11 20:31:10.131815-07:00)
+2025-03-11 20:31:10,133 - __main__ - INFO - Starting CSV download and processing job
+2025-03-11 20:31:10,134 - __main__ - INFO - Started job_listing_processor.py with PID 56557
+2025-03-11 20:31:10,134 - apscheduler.executors.default - INFO - Job "run_job (trigger: interval[1:00:00], next run at: 2025-03-11 21:31:10 PDT)" executed successfully
+2025-03-11 21:31:10,134 - apscheduler.executors.default - INFO - Running job "run_job (trigger: interval[1:00:00], next run at: 2025-03-11 22:31:10 PDT)" (scheduled at 2025-03-11 21:31:10.131815-07:00)
+2025-03-11 21:31:10,135 - __main__ - INFO - Terminated previous process with PID 56557
+2025-03-11 21:31:10,135 - __main__ - INFO - Starting CSV download and processing job
+2025-03-11 21:31:10,138 - __main__ - INFO - Started job_listing_processor.py with PID 58199
+2025-03-11 21:31:10,138 - apscheduler.executors.default - INFO - Job "run_job (trigger: interval[1:00:00], next run at: 2025-03-11 22:31:10 PDT)" executed successfully
+2025-03-11 22:04:02,936 - apscheduler.scheduler - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-03-11 22:04:02,936 - __main__ - INFO - Scheduler started. Press Ctrl+C to exit.
+2025-03-11 22:04:02,936 - apscheduler.scheduler - INFO - Added job "run_job" to job store "default"
+2025-03-11 22:04:02,936 - apscheduler.scheduler - INFO - Scheduler started
+2025-03-11 22:04:02,937 - apscheduler.executors.default - INFO - Running job "run_job (trigger: interval[1:00:00], next run at: 2025-03-11 22:04:02 PDT)" (scheduled at 2025-03-11 22:04:02.936031-07:00)
+2025-03-11 22:04:02,937 - __main__ - INFO - Starting CSV download and processing job
+2025-03-11 22:04:02,938 - __main__ - INFO - Started job_listing_processor.py with PID 59338
+2025-03-11 22:04:02,938 - apscheduler.executors.default - INFO - Job "run_job (trigger: interval[1:00:00], next run at: 2025-03-11 23:04:02 PDT)" executed successfully
+2025-03-11 22:07:13,728 - __main__ - INFO - Terminated process with PID 59338 during shutdown
+2025-03-11 22:07:13,729 - __main__ - INFO - Scheduler stopped.
+2025-03-11 22:07:13,729 - __main__ - INFO - Terminated process with PID 59338 during shutdown
+2025-03-11 22:07:13,729 - __main__ - INFO - Scheduler stopped.
+2025-03-11 23:09:32,666 - apscheduler.scheduler - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-03-11 23:09:32,667 - __main__ - INFO - Scheduler started. Press Ctrl+C to exit.
+2025-03-11 23:09:32,667 - apscheduler.scheduler - INFO - Added job "run_job" to job store "default"
+2025-03-11 23:09:32,667 - apscheduler.scheduler - INFO - Scheduler started
+2025-03-11 23:09:32,667 - apscheduler.executors.default - INFO - Running job "run_job (trigger: interval[1:00:00], next run at: 2025-03-11 23:09:32 PDT)" (scheduled at 2025-03-11 23:09:32.666786-07:00)
+2025-03-11 23:09:32,667 - __main__ - INFO - Starting CSV download and processing job
+2025-03-11 23:09:32,669 - __main__ - INFO - Started job_listing_processor.py with PID 62751
+2025-03-11 23:09:32,669 - apscheduler.executors.default - INFO - Job "run_job (trigger: interval[1:00:00], next run at: 2025-03-12 00:09:32 PDT)" executed successfully
+2025-03-11 23:10:02,734 - __main__ - INFO - Terminated process with PID 62751 during shutdown
+2025-03-11 23:10:02,734 - __main__ - INFO - Scheduler stopped.
+2025-03-11 23:10:02,734 - __main__ - INFO - Terminated process with PID 62751 during shutdown
+2025-03-11 23:10:02,734 - __main__ - INFO - Scheduler stopped.
+2025-03-11 23:10:15,932 - apscheduler.scheduler - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-03-11 23:10:15,933 - __main__ - INFO - Scheduler started. Press Ctrl+C to exit.
+2025-03-11 23:10:15,933 - apscheduler.scheduler - INFO - Added job "run_job" to job store "default"
+2025-03-11 23:10:15,933 - apscheduler.scheduler - INFO - Scheduler started
+2025-03-11 23:10:15,933 - apscheduler.executors.default - INFO - Running job "run_job (trigger: interval[1:00:00], next run at: 2025-03-11 23:10:15 PDT)" (scheduled at 2025-03-11 23:10:15.932760-07:00)
+2025-03-11 23:10:15,933 - __main__ - INFO - Starting CSV download and processing job
+2025-03-11 23:10:15,935 - __main__ - INFO - Started job_listing_processor.py with PID 62798
+2025-03-11 23:10:15,935 - apscheduler.executors.default - INFO - Job "run_job (trigger: interval[1:00:00], next run at: 2025-03-12 00:10:15 PDT)" executed successfully
+2025-03-11 23:10:20,972 - __main__ - INFO - Terminated process with PID 62798 during shutdown
+2025-03-11 23:10:20,973 - __main__ - INFO - Scheduler stopped.
+2025-03-11 23:10:20,973 - __main__ - INFO - Terminated process with PID 62798 during shutdown
+2025-03-11 23:10:20,973 - __main__ - INFO - Scheduler stopped.
+2025-03-11 23:18:30,803 - apscheduler.scheduler - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-03-11 23:18:30,803 - __main__ - INFO - Scheduler started. Press Ctrl+C to exit.
+2025-03-11 23:18:30,804 - apscheduler.scheduler - INFO - Added job "run_job" to job store "default"
+2025-03-11 23:18:30,804 - apscheduler.scheduler - INFO - Scheduler started
+2025-03-11 23:18:30,804 - apscheduler.executors.default - INFO - Running job "run_job (trigger: interval[1:00:00], next run at: 2025-03-11 23:18:30 PDT)" (scheduled at 2025-03-11 23:18:30.803109-07:00)
+2025-03-11 23:18:30,804 - __main__ - INFO - Starting CSV download and processing job
+2025-03-11 23:18:30,805 - __main__ - INFO - Started job_listing_processor.py with PID 63766
+2025-03-11 23:18:30,805 - apscheduler.executors.default - INFO - Job "run_job (trigger: interval[1:00:00], next run at: 2025-03-12 00:18:30 PDT)" executed successfully
+2025-03-11 23:33:24,163 - apscheduler.scheduler - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-03-11 23:33:24,163 - __main__ - INFO - Scheduler started. Press Ctrl+C to exit.
+2025-03-11 23:33:24,163 - apscheduler.scheduler - INFO - Added job "run_job" to job store "default"
+2025-03-11 23:33:24,163 - apscheduler.scheduler - INFO - Scheduler started
+2025-03-11 23:33:24,164 - apscheduler.executors.default - INFO - Running job "run_job (trigger: interval[1:00:00], next run at: 2025-03-11 23:33:24 PDT)" (scheduled at 2025-03-11 23:33:24.163466-07:00)
+2025-03-11 23:33:24,164 - __main__ - INFO - Starting CSV download and processing job
+2025-03-11 23:33:24,165 - __main__ - INFO - Started job_listing_processor.py with PID 65326
+2025-03-11 23:33:24,166 - apscheduler.executors.default - INFO - Job "run_job (trigger: interval[1:00:00], next run at: 2025-03-12 00:33:24 PDT)" executed successfully
+2025-03-11 23:52:10,172 - __main__ - INFO - Terminated process with PID 65326 during shutdown
+2025-03-11 23:52:10,173 - __main__ - INFO - Scheduler stopped.
+2025-03-11 23:52:10,173 - __main__ - INFO - Terminated process with PID 65326 during shutdown
+2025-03-11 23:52:10,173 - __main__ - INFO - Scheduler stopped.
+2025-03-11 23:53:26,589 - apscheduler.scheduler - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-03-11 23:53:26,589 - __main__ - INFO - Scheduler started. Press Ctrl+C to exit.
+2025-03-11 23:53:26,590 - apscheduler.scheduler - INFO - Added job "run_job" to job store "default"
+2025-03-11 23:53:26,590 - apscheduler.scheduler - INFO - Scheduler started
+2025-03-11 23:53:26,590 - apscheduler.executors.default - INFO - Running job "run_job (trigger: interval[1:00:00], next run at: 2025-03-11 23:53:26 PDT)" (scheduled at 2025-03-11 23:53:26.588980-07:00)
+2025-03-11 23:53:26,590 - __main__ - INFO - Starting CSV download and processing job
+2025-03-11 23:53:26,591 - __main__ - INFO - Started job_listing_processor.py with PID 66147
+2025-03-11 23:53:26,591 - apscheduler.executors.default - INFO - Job "run_job (trigger: interval[1:00:00], next run at: 2025-03-12 00:53:26 PDT)" executed successfully
+2025-03-11 23:53:43,959 - __main__ - INFO - Terminated process with PID 66147 during shutdown
+2025-03-11 23:53:43,959 - __main__ - INFO - Scheduler stopped.
+2025-03-11 23:53:43,959 - __main__ - INFO - Terminated process with PID 66147 during shutdown
+2025-03-11 23:53:43,959 - __main__ - INFO - Scheduler stopped.
+2025-03-11 23:53:49,208 - apscheduler.scheduler - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-03-11 23:53:49,208 - __main__ - INFO - Scheduler started. Press Ctrl+C to exit.
+2025-03-11 23:53:49,209 - apscheduler.scheduler - INFO - Added job "run_job" to job store "default"
+2025-03-11 23:53:49,209 - apscheduler.scheduler - INFO - Scheduler started
+2025-03-11 23:53:49,209 - apscheduler.executors.default - INFO - Running job "run_job (trigger: interval[1:00:00], next run at: 2025-03-11 23:53:49 PDT)" (scheduled at 2025-03-11 23:53:49.208543-07:00)
+2025-03-11 23:53:49,209 - __main__ - INFO - Starting CSV download and processing job
+2025-03-11 23:53:49,210 - __main__ - INFO - Started job_listing_processor.py with PID 66225
+2025-03-11 23:53:49,210 - apscheduler.executors.default - INFO - Job "run_job (trigger: interval[1:00:00], next run at: 2025-03-12 00:53:49 PDT)" executed successfully
+2025-03-11 23:54:00,837 - __main__ - INFO - Terminated process with PID 66225 during shutdown
+2025-03-11 23:54:00,837 - __main__ - INFO - Scheduler stopped.
+2025-03-11 23:54:00,837 - __main__ - INFO - Terminated process with PID 66225 during shutdown
+2025-03-11 23:54:00,837 - __main__ - INFO - Scheduler stopped.
+2025-03-11 23:54:47,752 - apscheduler.scheduler - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-03-11 23:54:47,752 - __main__ - INFO - Scheduler started. Press Ctrl+C to exit.
+2025-03-11 23:54:47,752 - apscheduler.scheduler - INFO - Added job "run_job" to job store "default"
+2025-03-11 23:54:47,752 - apscheduler.scheduler - INFO - Scheduler started
+2025-03-11 23:54:47,752 - apscheduler.executors.default - INFO - Running job "run_job (trigger: interval[1:00:00], next run at: 2025-03-11 23:54:47 PDT)" (scheduled at 2025-03-11 23:54:47.752202-07:00)
+2025-03-11 23:54:47,752 - __main__ - INFO - Starting CSV download and processing job
+2025-03-11 23:54:47,754 - __main__ - INFO - Started job_listing_processor.py with PID 66336
+2025-03-11 23:54:47,754 - apscheduler.executors.default - INFO - Job "run_job (trigger: interval[1:00:00], next run at: 2025-03-12 00:54:47 PDT)" executed successfully
+2025-03-12 00:18:42,421 - apscheduler.executors.default - WARNING - Run time of job "run_job (trigger: interval[1:00:00], next run at: 2025-03-12 01:18:30 PDT)" was missed by 0:00:11.618359
+2025-03-12 00:19:44,753 - __main__ - INFO - Terminated process with PID 66336 during shutdown
+2025-03-12 00:19:44,753 - __main__ - INFO - Scheduler stopped.
+2025-03-12 00:19:44,753 - __main__ - INFO - Terminated process with PID 66336 during shutdown
+2025-03-12 00:19:44,753 - __main__ - INFO - Scheduler stopped.
+2025-03-12 00:20:26,536 - __main__ - INFO - Terminated process with PID 63766 during shutdown
+2025-03-12 00:20:26,536 - __main__ - INFO - Scheduler stopped.
+2025-03-12 00:20:26,536 - __main__ - INFO - Terminated process with PID 63766 during shutdown
+2025-03-12 00:20:26,536 - __main__ - INFO - Scheduler stopped.
+2025-03-12 18:05:33,322 - apscheduler.scheduler - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-03-12 18:05:33,322 - __main__ - INFO - Scheduler started. Press Ctrl+C to exit.
+2025-03-12 18:05:33,323 - apscheduler.scheduler - INFO - Added job "run_job" to job store "default"
+2025-03-12 18:05:33,323 - apscheduler.scheduler - INFO - Scheduler started
+2025-03-12 18:05:33,323 - apscheduler.executors.default - INFO - Running job "run_job (trigger: interval[1:00:00], next run at: 2025-03-12 18:05:33 PDT)" (scheduled at 2025-03-12 18:05:33.322329-07:00)
+2025-03-12 18:05:33,323 - __main__ - INFO - Starting CSV download and processing job
+2025-03-12 18:05:33,324 - __main__ - INFO - Started job_listing_processor.py with PID 73706
+2025-03-12 18:05:33,324 - apscheduler.executors.default - INFO - Job "run_job (trigger: interval[1:00:00], next run at: 2025-03-12 19:05:33 PDT)" executed successfully
+2025-03-12 19:05:33,327 - apscheduler.executors.default - INFO - Running job "run_job (trigger: interval[1:00:00], next run at: 2025-03-12 20:05:33 PDT)" (scheduled at 2025-03-12 19:05:33.322329-07:00)
+2025-03-12 19:05:33,328 - __main__ - INFO - Terminated previous process with PID 73706
+2025-03-12 19:05:33,328 - __main__ - INFO - Starting CSV download and processing job
+2025-03-12 19:05:33,329 - __main__ - INFO - Started job_listing_processor.py with PID 75108
+2025-03-12 19:05:33,330 - apscheduler.executors.default - INFO - Job "run_job (trigger: interval[1:00:00], next run at: 2025-03-12 20:05:33 PDT)" executed successfully
+2025-03-12 19:11:18,531 - __main__ - INFO - Terminated process with PID 75108 during shutdown
+2025-03-12 19:11:18,533 - __main__ - INFO - Scheduler stopped.
+2025-03-12 19:11:18,534 - __main__ - INFO - Terminated process with PID 75108 during shutdown
+2025-03-12 19:11:18,534 - __main__ - INFO - Scheduler stopped.
+2025-03-14 16:17:57,124 - apscheduler.scheduler - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-03-14 16:17:57,124 - __main__ - INFO - Scheduler started. Press Ctrl+C to exit.
+2025-03-14 16:17:57,124 - apscheduler.scheduler - INFO - Added job "run_job" to job store "default"
+2025-03-14 16:17:57,124 - apscheduler.scheduler - INFO - Scheduler started
+2025-03-14 16:17:57,124 - apscheduler.executors.default - INFO - Running job "run_job (trigger: interval[1:00:00], next run at: 2025-03-14 16:17:57 PDT)" (scheduled at 2025-03-14 16:17:57.124217-07:00)
+2025-03-14 16:17:57,125 - __main__ - INFO - Starting CSV download and processing job
+2025-03-14 16:17:57,126 - __main__ - INFO - Started job_listing_processor.py with PID 5130
+2025-03-14 16:17:57,126 - apscheduler.executors.default - INFO - Job "run_job (trigger: interval[1:00:00], next run at: 2025-03-14 17:17:57 PDT)" executed successfully
+2025-03-14 18:08:55,233 - apscheduler.executors.default - WARNING - Run time of job "run_job (trigger: interval[1:00:00], next run at: 2025-03-14 18:17:57 PDT)" was missed by 0:50:58.109684
+2025-03-14 18:17:57,127 - apscheduler.executors.default - INFO - Running job "run_job (trigger: interval[1:00:00], next run at: 2025-03-14 19:17:57 PDT)" (scheduled at 2025-03-14 18:17:57.124217-07:00)
+2025-03-14 18:17:57,127 - __main__ - INFO - Terminated previous process with PID 5130
+2025-03-14 18:17:57,127 - __main__ - INFO - Starting CSV download and processing job
+2025-03-14 18:17:57,128 - __main__ - INFO - Started job_listing_processor.py with PID 6859
+2025-03-14 18:17:57,128 - apscheduler.executors.default - INFO - Job "run_job (trigger: interval[1:00:00], next run at: 2025-03-14 19:17:57 PDT)" executed successfully
+2025-03-14 19:35:09,363 - __main__ - INFO - Terminated process with PID 6859 during shutdown
+2025-03-14 19:35:09,364 - __main__ - INFO - Scheduler stopped.
+2025-03-14 19:35:09,364 - __main__ - INFO - Terminated process with PID 6859 during shutdown
+2025-03-14 19:35:09,364 - __main__ - INFO - Scheduler stopped.
